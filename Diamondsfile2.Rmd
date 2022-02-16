@@ -1,0 +1,13 @@
+---
+title: "Diamondsfile2"
+author: "Thao Huynh"
+date: "2/16/2022"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
